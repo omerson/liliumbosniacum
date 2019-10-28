@@ -1,0 +1,19 @@
+{
+    "ikre": {
+        "awscloudformation": {
+            "AuthRoleName": "liliumbosniacum-ikre-20191021214532-authRole",
+            "UnauthRoleArn": "arn:aws:iam::253597694443:role/liliumbosniacum-ikre-20191021214532-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::253597694443:role/liliumbosniacum-ikre-20191021214532-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "liliumbosniacum-ikre-20191021214532-deployment",
+            "UnauthRoleName": "liliumbosniacum-ikre-20191021214532-unauthRole",
+            "StackName": "liliumbosniacum-ikre-20191021214532",
+            "StackId": "arn:aws:cloudformation:eu-central-1:253597694443:stack/liliumbosniacum-ikre-20191021214532/57ea6e20-f43b-11e9-8dfd-0a43c0b04aee"
+        },
+        "categories": {
+            "auth": {
+                "liliumbosniacumc29879f5": {}
+            }
+        }
+    }
+}

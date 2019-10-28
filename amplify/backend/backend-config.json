@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"liliumbosniacumc29879f5": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
