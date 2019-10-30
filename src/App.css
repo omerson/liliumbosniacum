@@ -24,3 +24,12 @@
 span[class^="Section__sectionFooterSecondaryContent___"] {
   display: none;
 }
+
+.news {
+  border: 1px solid;
+  margin-top: 20px;
+}
+
+.addNews {
+  margin-top: 50px;
+}

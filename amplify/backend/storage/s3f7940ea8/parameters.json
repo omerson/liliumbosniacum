@@ -1,0 +1,27 @@
+{
+    "bucketName": "liliumbosniacumb7197d03a35e4c179ace3088778b0edd",
+    "authPolicyName": "s3_amplify_f7940ea8",
+    "unauthPolicyName": "s3_amplify_f7940ea8",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "selectedGuestPermissions": [],
+    "selectedAuthenticatedPermissions": [],
+    "s3PermissionsAuthenticatedPublic": "DISALLOW",
+    "s3PublicPolicy": "Public_policy_3fe83264",
+    "s3PermissionsAuthenticatedUploads": "DISALLOW",
+    "s3UploadsPolicy": "Uploads_policy_3fe83264",
+    "s3PermissionsAuthenticatedProtected": "DISALLOW",
+    "s3ProtectedPolicy": "Protected_policy_bdbcfc0a",
+    "s3PermissionsAuthenticatedPrivate": "DISALLOW",
+    "s3PrivatePolicy": "Private_policy_bdbcfc0a",
+    "AuthenticatedAllowList": "DISALLOW",
+    "s3ReadPolicy": "read_policy_3fe83264",
+    "s3PermissionsGuestPublic": "DISALLOW",
+    "s3PermissionsGuestUploads": "DISALLOW",
+    "GuestAllowList": "DISALLOW",
+    "triggerFunction": "S3Triggerecca423d"
+}

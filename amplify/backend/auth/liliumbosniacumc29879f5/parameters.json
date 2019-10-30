@@ -1,6 +1,6 @@
 {
     "identityPoolName": "liliumbosniacumc29879f5_identitypool_c29879f5",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "liliumc29879f5",
     "userPoolName": "liliumbosniacumc29879f5_userpool_c29879f5",
     "autoVerifiedAttributes": [
