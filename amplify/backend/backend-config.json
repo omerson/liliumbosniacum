@@ -21,10 +21,29 @@
 					}
 				}
 			}
+		},
+		"stripeResource": {
+			"service": "API Gateway",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [
+				{
+					"category": "function",
+					"resourceName": "stripeResource",
+					"attributes": [
+						"Name",
+						"Arn"
+					]
+				}
+			]
 		}
 	},
 	"function": {
 		"S3Triggerecca423d": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		},
+		"stripeResource": {
 			"service": "Lambda",
 			"providerPlugin": "awscloudformation",
 			"build": true

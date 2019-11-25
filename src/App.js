@@ -6,6 +6,7 @@ import { API, graphqlOperation, Storage } from 'aws-amplify';
 
 import { listNewss } from './graphql/queries';
 import { createNews } from './graphql/mutations';
+import PayButton from './PayButton';
 
 function App() {
   const [newsList, setNewsList] = useState([]);
@@ -121,7 +122,13 @@ function App() {
         <input name="image" type='file' onChange={handleFileChange} /><br/>
         <button onClick={saveNews}>Save News</button>
       </div>
+
+      <br/>
+      <br/>
+      <br/>
+      <PayButton email={'edis.omerovic@ikre.info'} anonymous={false} amount={2000} name={'Za kupovinu dzamije'}></PayButton>
     </div>
+
 
   );
 }

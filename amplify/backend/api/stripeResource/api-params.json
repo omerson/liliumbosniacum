@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/donate",
+            "lambdaFunction": "stripeResource",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "stripeResource",
+    "apiName": "stripeResource",
+    "functionArns": [
+        {
+            "lambdaFunction": "stripeResource"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "liliumbosniacum-ikre-20191021214532-authRole",
+        "unAuthRoleName": "liliumbosniacum-ikre-20191021214532-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "stripeResource",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
